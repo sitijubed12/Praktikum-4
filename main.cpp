@@ -1,52 +1,6 @@
-# praktikum4
+#include <iostream>
 
-*Latihan1 #Membuat program penjualan barang
-
-```
-Alur algoritmanya.
-	-Mendeklarasikan int kode, N, jumlah, banyak
-	-Mendeklarasikan long int total,diskon,akhir, bayar, harga,duit,kembalian
-	-Mendeklarasikan variabel N sebagai banyak barang yang dibeli.
-	-Mendeklarasikan variabel kode sebagai kode barang
-	-mendeklarasikan variabel jumlah sebagai pengulang bnyaknya pembelian
-	-mendeklarasikan variabel banyak sebagai nilai inputan 
-	-Mendeklarasikan variabel total sebagai penentu harga sesuai banyaknya barang yang dipesan
-	-Mendeklarasikan variabel diskon sebagai potongan harga
-	-mendeklarasikan variabel akhir sebagai penentu pembayaran setelah dikurangi diskon
-	- mendeklarasikan variabel bayar sebagai penentu banyaknya pembayaran
-	-mendeklarasikan variabel harga sebagai penentu harga barang
-	-mendeklarasikan variael duit sebagai inputan
-	-mendeklarasikan variabel kembalian sebagai penentu uang kembalian.
-	-membuat perulangan untuk banyaknya pembelian.
-		for(jumlah=1;jumlah<=banyak;jumlah++)
-	-membuat perbandingan untuk menentukan diskon dalam setiap pembelian.
-
-```
-
-```c++	
-
-		if((bayar>1000000)){
-		diskon = bayar*0.10;
-		cout<<"\nKamu Dapat Diskon 10%\t";
-		}else
-   		 if((bayar>=501000)&& (bayar<=1000000)){
-		diskon = bayar*0.05;
-		cout<<"\nKamu Dapat Diskon 5%\t";
-		}else
- 		   if((bayar<501000)){
-		diskon = 0;
-		cout<<"\nKamu Dapat Diskon 0%\t";
-		}
-		else {
-		diskon = 0;
-		}
-
-```
-
-*Berikut kode lengkapnya
-
-```c++
-sing namespace std;
+using namespace std;
 
 int main()
 {
@@ -249,12 +203,3 @@ else
 cout<<"\n\n\t\t\tProgram Logging Off....";
 }
 
-```
-
-*Berikut flowchartnya.
-![img](https://raw.githubusercontent.com/aseps12/praktikum4/master/flowchart.png)
-
-*Berikut Hasilnya.
-![img](https://raw.githubusercontent.com/aseps12/praktikum4/master/hasil1.png)
-![img](https://raw.githubusercontent.com/aseps12/praktikum4/master/hasil2.png)
-![img](https://raw.githubusercontent.com/aseps12/praktikum4/master/hasil3.png)
